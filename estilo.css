@@ -3,6 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.whatsapp-link{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 40px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 62px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp{
+    margin-top: 1px;
+}
 header{
     background-color: grey;
     list-style: none;
