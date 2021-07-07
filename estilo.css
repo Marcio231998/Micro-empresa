@@ -52,18 +52,21 @@ header:last-child a{
 }
 
 .card{
+    
     width: 100%;
-    height:400px;
+    height:500px;
     background-color: maroon;
 }
 .card2{
+    
     width: 100%;
-    height:400px;
+    height:500px;
     background-color: mediumblue;
 }
 .card3{
+    
     width: 100%;
-    height:400px;
+    height:500px;
     background-color: orangered;
 }
 #cabeca{
@@ -142,6 +145,7 @@ header:last-child a{
     border-bottom: 1px solid #e6e6e6;
 } */
 img{
-    width: 100%;
+    width: 60%;
     height:400px;
+    margin-top: 0%;
 }
