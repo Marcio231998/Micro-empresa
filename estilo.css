@@ -3,6 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.instagram-link{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 40px;
+    right: 105px;
+    background-image:linear-gradient(rgb(101, 22, 228), #5B68D6, #D14A7C, #F97D49, #FEC053) ;
+    color: #ebe7f0f5;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 60px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-instagram{
+    margin-top: 1px;
+}
 .whatsapp-link{
     position: fixed;
     width: 65px;
