@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: grey;
+    list-style: none;
+    padding: 0;
+    /*position: fixed;
+    right: 0;
+    top: 50%;
+    background-image: url(https://i1.sndcdn.com/avatars-000245034411-4xxdtb-t500x500.jpg);
+    background-attachment: fixed;
+    background-size: 1px;
+    */
+    
+}   
+p{
+    display: inline;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center ;
+}
+header a{
+    color: rgb(10, 9, 9);
+    display: inline-block;
+    padding: 1%;
+    text-decoration: none;
+    /*transition: all .60s;*/
+   
+}
+
+header a {
+    font-size: 30px ;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    animation: anima 4s ease infinite;
+}
+@keyframes anima {
+    to {
+        opacity: 1;
+    }
+}
+
+header a:hover{
+    background-color: black;
+}
+header:last-child a{
+    float: right;
+    background-color: turquoise;
+}
+
+.card{
+    width: 100%;
+    height:400px;
+    background-color: maroon;
+}
+.card2{
+    width: 100%;
+    height:400px;
+    background-color: mediumblue;
+}
+.card3{
+    width: 100%;
+    height:400px;
+    background-color: orangered;
+}
+#cabeca{
+    background-color: black;
+}
+#cabeca ul{
+    list-style: none;
+    padding: 0;
+}
+#cabeca ul li{
+    display: inline;
+}
+#cabeca ul li a{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    transition: all .4s;
+}
+#cabeca ul li a:hover{
+    background-color: turquoise;
+}
+#cabeca ul li:last-child a{
+    float: right;
+    background-color: grey;
+}
+/*------------------------------------Pag2---------------------------------------------*/
+.cabeca{
+    background-color: rgb(28, 187, 68);
+    
+}
+.cabeca ul{
+    list-style: none;
+    padding: 0;
+}
+.cabeca ul li{
+    display: inline;
+}
+.cabeca ul li a{
+    color: rgb(228, 26, 26);
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    transition: all .4s;
+}
+.cabeca ul li a:hover{
+    background-color: turquoise;
+}
+.cabeca ul li:last-child a{
+    float: right;
+    background-color: rgb(51, 190, 33);
+}
+
+/*.card{
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    width: 32.21%;
+    height: 531px;
+    vertical-align: top;
+    margin: 0;
+    padding: 10px 10px 0;
+    border-right:1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}*/
+/*.card2{
+    position: relative;
+    display: inline-block;
+    background-color: violet;
+    width: 32.21;
+    height: 531px;
+    vertical-align: top;
+    margin: 0;
+    padding: 10px 10px 0;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+} */
+img{
+    width: 100%;
+    height:400px;
+}
