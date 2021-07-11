@@ -1,0 +1,299 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsNI4AyqOs62u_tbOWirNbumVFFkn10yuYHHkaJVk8jl43xDOLUC4ihnHcGdmbKpE2cI&usqp=CAU);
+    background-size: 10%;
+}
+header{
+    margin: 0;
+    margin-top: -1.3%;
+    background-color: rgba(128, 128, 128, 0);
+    list-style: none;
+    width: 100%;
+    height: 6vh;
+    padding: 0;
+    /*position: fixed;
+    right: 0;
+    top: 50%;
+    background-image: url(https://i1.sndcdn.com/avatars-000245034411-4xxdtb-t500x500.jpg);
+    background-attachment: fixed;
+    background-size: 1px;
+    */
+    
+}   
+p{
+    display: inline;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center ;
+}
+header a{
+    color: rgb(10, 9, 9);
+    display: inline-block;
+    padding: 1%;
+    text-decoration: none;
+    /*transition: all .60s;*/
+   
+}
+
+header a {
+    font-size: 30px ;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    animation: anima 4s ease infinite;
+    height: 100%;
+}
+@keyframes anima {
+    to {
+        opacity: 1;
+    }
+}
+
+header a:hover{
+    background-color: black;
+    
+}
+header:last-child a{
+    float: right;
+    background-color: turquoise;
+}
+
+.card{
+    
+    width: 100%;
+    height:500px;
+    background-color: maroon;
+}
+.card2{
+    
+    width: 100%;
+    height:500px;
+    background-color: mediumblue;
+}
+.card3{
+    
+    width: 100%;
+    height:500px;
+    background-color: orangered;
+}
+#cabeca{
+    width: 100%;
+    background-color: black;
+    margin-top: -1.2%;
+}
+#cabeca ul{
+    list-style: none;
+    padding: 0;
+}
+#cabeca ul li{
+    display: inline;
+}
+#cabeca ul li a{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    transition: all .4s;
+}
+#cabeca ul li a:hover{
+    background-color: rgb(76, 78, 77);
+}
+#cabeca ul li:last-child a{
+    float: right;
+    background-color: grey;
+}
+img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px 10px 10px;
+}
+div{
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: #C49750;
+
+}
+h2{
+    color: black;
+    text-align: center;
+}
+.pretovermelho p{
+    
+    font: bolder auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.pretovermelho{
+    height: 80vh;
+    width: 40vh;
+    margin-top: 10%;
+    text-align: left;
+    background-color:#C49750;
+    margin-left: 5%;
+}
+.vermelho p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.vermelho{
+    background-color: #C49750;
+    text-align: left;
+    margin-top: -153px;
+    margin-left: 50%;
+    height: 80vh;
+    width: 40vh;
+}
+.rosa p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.rosa{
+    height: 80vh;
+    width: 40vh;
+    margin-top: 10%;
+    text-align: left;
+    background-color: #C49750;
+    margin-left: 5%;
+}
+.black p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.black{
+    background-color: #C49750;
+    text-align: left;
+    margin-top: -153px;
+    margin-left: 50%;
+    height: 80vh;
+    width: 40vh;
+}
+.pretobranco p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.pretobranco{
+    height: 80vh;
+    width: 40vh;
+    margin-top: 10%;
+    text-align: left;
+    background-color: #C49750;
+    margin-left: 5%;
+}
+.brancocinza p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.brancocinza{
+    background-color: #C49750;
+    text-align: left;
+    margin-top: -153px;
+    margin-left: 50%;
+    height: 80vh;
+    width: 40vh;
+}
+.branco p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.branco{
+    height: 80vh;
+    width: 40vh;
+    margin-top: 10%;
+    text-align: left;
+    background-color: #C49750;
+    margin-left: 5%;    
+}
+.preto p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.preto{
+    background-color: #C49750;
+    text-align: left;
+    margin-top: -153px;
+    margin-left: 50%;
+    height: 80vh;
+    width: 40vh;    
+}
+.vermelhoebranco p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.vermelhoebranco{
+    height: 80vh;
+    width: 40vh;
+    margin-top: 10%;
+    text-align: left;
+    background-color: #C49750;
+    margin-left: 5%;    
+}
+.azul p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.azul{
+    background-color: #C49750;
+    text-align: left;
+    margin-top: -153px;
+    margin-left: 50%;
+    height: 80vh;
+    width: 40vh;
+}
+.solabranca p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.solabranca{
+    height: 80vh;
+    width: 40vh;
+    margin-top: 10%;
+    text-align: left;
+    background-color: #C49750;
+    margin-left: 5%;    
+}
+.whiteblack p{
+    font: normal auto Arial;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;}
+.whiteblack{
+    background-color: #C49750;
+    text-align: left;
+    margin-top: -153px;
+    margin-left: 50%;  
+    height: 80vh;
+    width: 40vh;
+}

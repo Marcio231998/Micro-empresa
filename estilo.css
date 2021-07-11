@@ -41,6 +41,8 @@ header{
     background-color: grey;
     list-style: none;
     padding: 0;
+    width: 16.3%;
+    height: 30px;
     /*position: fixed;
     right: 0;
     top: 50%;
@@ -70,6 +72,7 @@ header a {
     background-color: rgb(0, 0, 0);
     opacity: 0;
     animation: anima 4s ease infinite;
+    height: 30px;
 }
 @keyframes anima {
     to {
@@ -178,8 +181,4 @@ header:last-child a{
     border-right: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
 } */
-img{
-    width: 60%;
-    height:400px;
-    margin-top: 0%;
-}
+
